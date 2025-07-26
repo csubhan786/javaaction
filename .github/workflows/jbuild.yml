@@ -19,8 +19,7 @@ jobs:
           distribution: 'temurin' # or adopt, zulu, etc.
           java-version: '17'
 
-      - name: Cache Maven packages
-        uses: actions/cache@v4
+     
         
 
       - name: Build with Maven
